@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/yjin/TspWithGeneticSharp/TspWithGeneticSharp.csproj": {}
+  },
+  "projects": {
+    "/home/yjin/TspWithGeneticSharp/TspWithGeneticSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/yjin/TspWithGeneticSharp/TspWithGeneticSharp.csproj",
+        "projectName": "TspWithGeneticSharp",
+        "projectPath": "/home/yjin/TspWithGeneticSharp/TspWithGeneticSharp.csproj",
+        "packagesPath": "/home/yjin/.nuget/packages/",
+        "outputPath": "/home/yjin/TspWithGeneticSharp/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/home/yjin/.dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/yjin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "GeneticSharp": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "Microsoft.AspNetCore.Blazor": {
+              "target": "Package",
+              "version": "[3.0.0-preview6.19307.2, )"
+            },
+            "Microsoft.AspNetCore.Blazor.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview6.19307.2, )"
+            },
+            "Microsoft.AspNetCore.Blazor.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview6.19307.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
